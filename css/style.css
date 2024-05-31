@@ -7,6 +7,8 @@
     font-family: 'Open Sans';
 }
 
+/* HEADER */
+
 .header-content img {
     position: relative;
     width: 100%;
@@ -59,4 +61,132 @@
     margin-left: 16px;
     font-size: 16px;
     font-weight: normal;
+}
+
+/* MAIN */
+
+/* SECTION-01 */
+
+section{
+    color: #23272a;
+}
+
+.section-01 {
+    display: flex;
+    width: auto;
+    margin: 10px;
+    padding: 40px 150px;
+}
+
+.section-01 img {
+    padding-right: 16px;
+}
+
+.section-01 h1 {
+    padding-right: 19px;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 16px;
+}
+.section-01 p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.descricao-01 {
+    margin: 10px;
+}
+
+/* SECTION 02 */
+
+.section-02 {
+    display: flex;
+    width: auto;
+    margin: 10px;
+}
+
+.section-02 img {
+    margin: 27px;
+}
+
+.section-02 h1 {
+    padding-right: 16px;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 16px;
+}
+
+.section-02 p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.descricao-02 {
+    margin: 118px;
+}
+
+/* SECTION 3  */
+
+.section-03 {
+    display: flex;
+    width: auto;
+    margin: 10px;
+}
+
+.section-03 img {
+    margin: 27px 0px 27px 153px;
+}
+
+.section-03 h1 {
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 16px;
+}
+
+.section-03 p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.descricao-03 {
+    margin: 107px 153px 107px 16px;
+}
+
+/* SECTION 04 */
+
+.section-04 {
+    display: grid; 
+    place-items: center;
+    place-content: center;
+    width: auto;
+}
+
+.section-04 h1 {
+    font-family: 'Luckiest Guy';
+    font-weight: 800;
+    font-size: 40px;
+    padding: 40px 0px 16px;
+}
+
+.section-04 p {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px 239px 16px;
+}
+
+.section-04 img {
+    padding: 0px 248px 40px;
+}
+
+/* FOOTER */
+
+footer {
+    background: rgba(35, 39, 42, 1);
+    width: auto;
+}
+
+footer img {
+    background-color: transparent;
+    padding: 35px 525px;
 }
